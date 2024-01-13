@@ -1,0 +1,28 @@
+body {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    display: flex;
+    background-size: cover !important;
+    background-color: #000000;
+    flex-grow: 1;
+}
+
+html {
+    flex-grow: 1;
+    display: flex;
+    min-height: 100%;
+}
+
+.workspace {
+    display: flex;
+    flex-shrink: 1;
+}
+
+* {
+    margin: 0
+}
+
+.bulb,
+.bulb1 {
+    margin: 20px;
+}
